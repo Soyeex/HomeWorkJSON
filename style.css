@@ -1,0 +1,30 @@
+img {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 3px 3px 15px #aaaaaa;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+  }
+
+h2, p {
+    text-align: center;
+    border: #c0c0c0 1px solid;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(37, 110, 227);
+    color: white;
+    box-shadow: 3px 3px 15px #aaaaaa;
+}
+p {
+    font-size: 20px;
+}
